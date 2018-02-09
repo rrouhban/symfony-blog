@@ -5,10 +5,18 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "6ff329cb0f9fa8fe0f83ae9f0ebde56e",
 =======
     "content-hash": "66abec19fdbecf37f169d46820b082db",
 >>>>>>> :package: Add browser-kit
+=======
+    "content-hash": "4abdbde876f755f7ecd103cc52da9f3a",
+>>>>>>> :package: Update dependences
+=======
+    "content-hash": "6d26afecf69ae4946f5d6a1a559aad67",
+>>>>>>> :package: Add DamaDoctrineTestBundle
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3894,55 +3902,6 @@
             "time": "2018-01-03T07:38:00+00:00"
         },
         {
-            "name": "symfony/stopwatch",
-            "version": "v4.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "d52321f0e2b596bd03b5d1dd6eebe71caa925704"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/d52321f0e2b596bd03b5d1dd6eebe71caa925704",
-                "reference": "d52321f0e2b596bd03b5d1dd6eebe71caa925704",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Stopwatch\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Stopwatch Component",
-            "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:38:00+00:00"
-        },
-        {
             "name": "symfony/swiftmailer-bundle",
             "version": "v3.1.6",
             "source": {
@@ -4794,6 +4753,63 @@
     ],
     "packages-dev": [
         {
+            "name": "dama/doctrine-test-bundle",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dmaicher/doctrine-test-bundle.git",
+                "reference": "ccdea2ce9fec5048385d1b9b5bc7c4c3f32ab48f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dmaicher/doctrine-test-bundle/zipball/ccdea2ce9fec5048385d1b9b5bc7c4c3f32ab48f",
+                "reference": "ccdea2ce9fec5048385d1b9b5bc7c4c3f32ab48f",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": "~2.5",
+                "doctrine/doctrine-bundle": "~1.4",
+                "php": "^7.1",
+                "symfony/framework-bundle": "~2.7|~3.0|~4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0|~7.0",
+                "symfony/yaml": "~2.7|~3.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DAMA\\DoctrineTestBundle\\": "src/DAMA/DoctrineTestBundle"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Maicher",
+                    "email": "mail@dmaicher.de"
+                }
+            ],
+            "description": "Symfony 2/3 bundle to isolate doctrine database tests and improve test performance",
+            "keywords": [
+                "Symfony 3",
+                "doctrine",
+                "isolation",
+                "performance",
+                "symfony",
+                "symfony 2",
+                "tests"
+            ],
+            "time": "2018-02-05T12:10:27+00:00"
+        },
+        {
             "name": "doctrine/data-fixtures",
             "version": "v1.3.0",
             "source": {
@@ -4912,6 +4928,7 @@
             "time": "2017-12-04T20:26:38+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "easycorp/easy-log-handler",
             "version": "v1.0.3",
             "source": {
@@ -5014,6 +5031,8 @@
             "time": "2017-08-15T16:48:10+00:00"
         },
         {
+=======
+>>>>>>> :package: Update dependences
             "name": "symfony/browser-kit",
             "version": "v4.0.3",
             "source": {
@@ -5445,6 +5464,55 @@
             ],
             "description": "A pack for the Symfony web profiler",
             "time": "2017-12-12T01:48:24+00:00"
+        },
+        {
+            "name": "symfony/stopwatch",
+            "version": "v4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/stopwatch.git",
+                "reference": "d52321f0e2b596bd03b5d1dd6eebe71caa925704"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/d52321f0e2b596bd03b5d1dd6eebe71caa925704",
+                "reference": "d52321f0e2b596bd03b5d1dd6eebe71caa925704",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Stopwatch\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Stopwatch Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-01-03T07:38:00+00:00"
         }
     ],
     "aliases": [],
