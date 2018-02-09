@@ -6,6 +6,7 @@ services:
     image: blog-symfony
     depends_on:
       - db
+      - db-test
     volumes:
       - ./:/application:cached
       - ./var/sessions:/application/var/sessions/
