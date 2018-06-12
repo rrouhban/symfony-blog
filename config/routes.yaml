@@ -1,2 +1,12 @@
 logout:
     path: /logout
+
+# This route needed to set up the preferred locale
+pre_homepage:
+    path: /{_locale}
+    controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+    requirements:
+      _locale: '%app_locales%'
+    defaults:
+      template: static/pre_homepage.html.twig
+      _locale: '%locale%'
